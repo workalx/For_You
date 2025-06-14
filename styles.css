@@ -203,4 +203,73 @@ footer {
   from { opacity: 0; transform: translateY(-20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+  .hero-section {
+    height: 60vh;
+    padding: 20px 0;
+  }
+  .intro-text h1 {
+    font-size: 28px;
+  }
+  .intro-text p {
+    font-size: 16px;
+  }
+  .main-nav {
+    padding: 8px;
+  }
+  .main-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .main-nav li {
+    margin: 0 8px;
+    display: block;
+  }
+  .section {
+    padding: 30px 6px;
+  }
+  .section h2 {
+    font-size: 22px;
+  }
+  .slider {
+    max-width: 98vw;
+    min-width: 0;
+  }
+  .slide {
+    border-radius: 8px;
+    max-width: 100%;
+  }
+  .slider-buttons button {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+  .card1, .card2 {
+    max-width: 98vw;
+    padding: 12px 6px;
+    font-size: 15px;
+  }
+  .round-image {
+    max-width: 120px;
+    margin-top: 10px;
+  }
+  .hobby-list {
+    gap: 8px;
+  }
+  .hobby-item {
+    font-size: 15px;
+    min-width: 90px;
+    max-width: 140px;
+    padding: 8px 10px;
+  }
+  footer {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
   
